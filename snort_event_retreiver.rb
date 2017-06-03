@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
+#Ensure the config.yml file is created in the same directory as snort_event_receiver.rb
+#Configure config.yml with the MySQL DB info
 require 'mysql'
 require 'json'
 require 'rest-client'
